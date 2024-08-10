@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+    /* Color de fondo suave */
+}
+
+.login-form {
+    background-color: #ffffff;
+    /* Fondo blanco para el formulario */
+    display: flex;
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    max-width: 400px;
+    /* Ancho máximo del formulario */
+    margin-bottom: 15px;
+}
+
+.login-form h2 {
+    margin: 0 0 20px 0;
+    /* Espacio debajo del título */
+    font-size: 36px;
+    /* Tamaño de fuente más grande para el título */
+    color: #333;
+    /* Color del texto del título */
+    text-align: center;
+    /* Centra el título dentro del formulario */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    /* Tamaño de fuente de las etiquetas */
+    color: #555;
+    /* Color del texto de las etiquetas */
+    font-weight: bold;
+    /* Hace el texto en negrita */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+    width: 100%;
+    /* Asegura que la etiqueta ocupe el ancho completo del formulario */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.input-group i {
+    color: #999;
+    font-size: 18px;
+}
+
+.login-form .error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.login-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4c8eff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
